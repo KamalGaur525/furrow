@@ -189,16 +189,14 @@
                 <li class="nav-item"><a class="nav-link" href="#">Videos</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
-                 
-                <li class="nav-item"><a class="nav-link" href="#">Become A Dealer</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="dealer.html">Become A Dealer</a></li>
               </ul>
             </div>
 
             <div class="col-lg-3 d-none d-lg-flex justify-content-end align-items-center gap-3">
               <div class="info-right">
-                <div class="d-flex justify-content-between me-lg-3">
-                  <div class="lang-toggle">A / अ</div>
-                </div>
+
                 <a class="navbar-brand" href="#">
                   <img src="img/thar.png" alt="Thar Logo" class="navbar-logo">
                 </a>
@@ -231,7 +229,7 @@
             <li><a class="mobile-nav-link" href="#">Videos</a></li>
             <li><a class="mobile-nav-link" href="contact.html">Contact</a></li>
             <li><a class="mobile-nav-link" href="career.html">Career</a></li>
-            
+
             <li><a class="mobile-nav-link" href="#">Become A Dealer</a></li>
           </ul>
         </div>
@@ -565,8 +563,8 @@
         <div class="col-lg-7 animate fade-up">
           <span class="badge border border-warning bg-opacity-10 text-warning mb-2 px-3 py-2 rounded-pill fw-bold"
             style="font-size: 0.75rem; letter-spacing: 1px;">SINCE 2024</span>
-          
-            <h2 class="heading-secondary2  ">Rooted in Tradition,  Driven by Technology</h2>
+
+          <h2 class="heading-secondary2  ">Rooted in Tradition, Driven by Technology</h2>
 
 
           <p class="lead-text">
@@ -704,9 +702,9 @@
   <section>
     <div class="video-section">
       <div class="heading-secondary2 text-capitalize text-start text-sm-center mb-5 ms-2 ms-sm-0 animate fade-up">
-         <h2 class="heading-secondary2  ">Our Latest <span class="color-yellow">Videos</span> Are  Here!</h2>
+        <h2 class="heading-secondary2  ">Our Latest <span class="color-yellow">Videos</span> Are Here!</h2>
 
-          </div>
+      </div>
 
       <div class="owl-carousel owl-theme tractor-video-carousel animate fade-up" data-delay="150">
         <div class="video-item" data-video="https://www.youtube.com/embed/y_76wOT94n0?autoplay=1&rel=0">
@@ -937,46 +935,46 @@
     </div>
   </section>
   <section>
-   <!-- Chat Button -->
-    <button class="chat-button animate fade-left"  id="chatToggle">
-        <span class="chat-icon">💬</span>
-        <span class="chat-text">Chat With Us</span>
+    <!-- Chat Button -->
+    <button class="chat-button animate fade-left" id="chatToggle">
+      <span class="chat-icon">💬</span>
+      <span class="chat-text">Chat With Us</span>
     </button>
 
     <!-- Chat Box -->
     <div class="chat-container" id="chatBox">
-        <div class="chat-header">
-            <div class="chat-header-info">
-                <div class="chat-avatar">💬</div>
-                <div class="chat-header-text">
-                    <h2>Support 24/7</h2>
-                   
-                </div>
-            </div>
-            <button class="close-btn2" id="closeChat">✕</button>
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar">💬</div>
+          <div class="chat-header-text">
+            <h2>Support 24/7</h2>
+
+          </div>
+        </div>
+        <button class="close-btn2" id="closeChat">✕</button>
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div class="message received">
+          <div class="message-bubble">
+            Hello! 👋 Welcome to our support chat. How can I help you today?
+          </div>
+          <div class="message-time">Just now</div>
         </div>
 
-        <div class="chat-messages" id="chatMessages">
-            <div class="message received">
-                <div class="message-bubble">
-                    Hello! 👋 Welcome to our support chat. How can I help you today?
-                </div>
-                <div class="message-time">Just now</div>
-            </div>
-
-            <div class="typing-indicator" id="typingIndicator">
-                <div class="typing-dots">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+        <div class="typing-indicator" id="typingIndicator">
+          <div class="typing-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
+      </div>
 
-        <div class="chat-input-container">
-            <input type="text" class="chat-input" id="messageInput" placeholder="Type your message...">
-            <button class="send-btn" id="sendBtn">➤</button>
-        </div>
+      <div class="chat-input-container">
+        <input type="text" class="chat-input" id="messageInput" placeholder="Type your message...">
+        <button class="send-btn" id="sendBtn">➤</button>
+      </div>
     </div>
   </section>
   <footer class="site-footer ">
@@ -1007,7 +1005,7 @@
           <h6 class="footer-title">Quick Links</h6>
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
-            <li><a href="#">Dealers</a></li>
+            <li><a href="dealer.html">Dealers</a></li>
             <li><a href="#">Warranty</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -1082,6 +1080,7 @@
             dots: true,
             autoplay: true,
             autoplayTimeout: 3000,
+            autoplayHoverPause: true,
             margin: 0
           });
           desktopCarouselInitialized = true;
@@ -1096,6 +1095,7 @@
         dots: true,
         autoplay: true,
         autoplayTimeout: 3000,
+          autoplayHoverPause: true,
         margin: 0
       });
 
@@ -1183,7 +1183,8 @@
         nav: false,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 3000
+        autoplayTimeout: 3000,
+          autoplayHoverPause: true,
       });
     });
 
@@ -1193,7 +1194,8 @@
         margin: 25,
         nav: false,
         dots: true,
-        autoplay: false,          // optional
+        autoplay: false, 
+          autoplayHoverPause: true,         // optional
         responsive: {
           0: { items: 1, loop: true },
           768: { items: 2, loop: true },
@@ -1250,7 +1252,7 @@
         dots: false,
         nav: false,
         responsive: {
-          0: { items: 1,  },
+          0: { items: 1, },
           768: { items: 3, margin: 40 },
           1024: { items: 5, margin: 60 }
         },
@@ -1293,6 +1295,7 @@
         dots: false,
         autoplay: true,
         autoplayTimeout: 4000,
+          autoplayHoverPause: true,
         smartSpeed: 600,
         responsive: {
           0: {
@@ -1418,93 +1421,93 @@
       });
     });
   </script>
-   <script>
-        const chatToggle = document.getElementById('chatToggle');
-        const chatBox = document.getElementById('chatBox');
-        const closeChat = document.getElementById('closeChat');
-        const messageInput = document.getElementById('messageInput');
-        const sendBtn = document.getElementById('sendBtn');
-        const chatMessages = document.getElementById('chatMessages');
-        const typingIndicator = document.getElementById('typingIndicator');
+  <script>
+    const chatToggle = document.getElementById('chatToggle');
+    const chatBox = document.getElementById('chatBox');
+    const closeChat = document.getElementById('closeChat');
+    const messageInput = document.getElementById('messageInput');
+    const sendBtn = document.getElementById('sendBtn');
+    const chatMessages = document.getElementById('chatMessages');
+    const typingIndicator = document.getElementById('typingIndicator');
 
-        let messageCount = 0;
-        const MAX_AUTO_REPLIES = 3;
+    let messageCount = 0;
+    const MAX_AUTO_REPLIES = 3;
 
-        // Replace with your WhatsApp number (format: country code + number, no spaces or symbols)
-        const WHATSAPP_NUMBER = '1234567890'; // Change this to your WhatsApp number
+    // Replace with your WhatsApp number (format: country code + number, no spaces or symbols)
+    const WHATSAPP_NUMBER = '1234567890'; // Change this to your WhatsApp number
 
-        // Toggle chat box
-        chatToggle.addEventListener('click', () => {
-            chatBox.classList.add('active');
-            messageInput.focus();
-        });
+    // Toggle chat box
+    chatToggle.addEventListener('click', () => {
+      chatBox.classList.add('active');
+      messageInput.focus();
+    });
 
-        // Close chat box
-        closeChat.addEventListener('click', () => {
-            chatBox.classList.remove('active');
-        });
+    // Close chat box
+    closeChat.addEventListener('click', () => {
+      chatBox.classList.remove('active');
+    });
 
-        // Get current time
-        function getCurrentTime() {
-            const now = new Date();
-            return now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-        }
+    // Get current time
+    function getCurrentTime() {
+      const now = new Date();
+      return now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    }
 
-        // Show typing indicator
-        function showTyping() {
-            typingIndicator.classList.add('active');
-            chatMessages.scrollTop = chatMessages.scrollHeight;
-        }
+    // Show typing indicator
+    function showTyping() {
+      typingIndicator.classList.add('active');
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
 
-        // Hide typing indicator
-        function hideTyping() {
-            typingIndicator.classList.remove('active');
-        }
+    // Hide typing indicator
+    function hideTyping() {
+      typingIndicator.classList.remove('active');
+    }
 
-        // Add message to chat
-        function addMessage(text, type) {
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${type}`;
+    // Add message to chat
+    function addMessage(text, type) {
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${type}`;
 
-            messageDiv.innerHTML = `
+      messageDiv.innerHTML = `
                 <div class="message-bubble">${text}</div>
                 <div class="message-time">${getCurrentTime()}</div>
             `;
 
-            chatMessages.insertBefore(messageDiv, typingIndicator);
-            chatMessages.scrollTop = chatMessages.scrollHeight;
-        }
+      chatMessages.insertBefore(messageDiv, typingIndicator);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
 
-        // Add quick reply buttons
-        function addQuickReplies(options) {
-            const repliesDiv = document.createElement('div');
-            repliesDiv.className = 'quick-replies';
+    // Add quick reply buttons
+    function addQuickReplies(options) {
+      const repliesDiv = document.createElement('div');
+      repliesDiv.className = 'quick-replies';
 
-            options.forEach(option => {
-                const btn = document.createElement('button');
-                btn.className = 'quick-reply-btn';
-                btn.textContent = option;
-                btn.onclick = () => {
-                    messageInput.value = option;
-                    sendMessage();
-                    repliesDiv.remove();
-                };
-                repliesDiv.appendChild(btn);
-            });
+      options.forEach(option => {
+        const btn = document.createElement('button');
+        btn.className = 'quick-reply-btn';
+        btn.textContent = option;
+        btn.onclick = () => {
+          messageInput.value = option;
+          sendMessage();
+          repliesDiv.remove();
+        };
+        repliesDiv.appendChild(btn);
+      });
 
-            chatMessages.insertBefore(repliesDiv, typingIndicator);
-            chatMessages.scrollTop = chatMessages.scrollHeight;
-        }
+      chatMessages.insertBefore(repliesDiv, typingIndicator);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
 
-        // Add WhatsApp link
-        function addWhatsAppLink() {
-            const linkDiv = document.createElement('div');
-            linkDiv.className = 'message received';
+    // Add WhatsApp link
+    function addWhatsAppLink() {
+      const linkDiv = document.createElement('div');
+      linkDiv.className = 'message received';
 
-            const whatsappMessage = "Hello! I'd like to continue our conversation.";
-            const encodedMessage = encodeURIComponent(whatsappMessage);
+      const whatsappMessage = "Hello! I'd like to continue our conversation.";
+      const encodedMessage = encodeURIComponent(whatsappMessage);
 
-            linkDiv.innerHTML = `
+      linkDiv.innerHTML = `
                 <div class="message-bubble">
                     For more detailed assistance, feel free to continue our conversation on WhatsApp!
                     <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}" target="_blank" class="whatsapp-link">
@@ -1517,82 +1520,82 @@
                 <div class="message-time">${getCurrentTime()}</div>
             `;
 
-            chatMessages.insertBefore(linkDiv, typingIndicator);
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+      chatMessages.insertBefore(linkDiv, typingIndicator);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    // Bot responses
+    function getBotResponse(userMessage) {
+      messageCount++;
+
+      const responses = [
+        {
+          text: "Thank you for reaching out! I'm here to assist you. What can I help you with today?",
+          quickReplies: ["Product Info", "Pricing", "Support", "Other"]
+        },
+        {
+          text: "I understand you're looking for assistance. Could you please provide more details about your query?",
+          quickReplies: ["Yes, sure", "Need help", "Have a question"]
+        },
+        {
+          text: "I appreciate your patience! Our team is ready to provide you with the best support possible.",
+          quickReplies: null
         }
+      ];
 
-        // Bot responses
-        function getBotResponse(userMessage) {
-            messageCount++;
+      if (messageCount <= MAX_AUTO_REPLIES) {
+        const response = responses[messageCount - 1];
 
-            const responses = [
-                {
-                    text: "Thank you for reaching out! I'm here to assist you. What can I help you with today?",
-                    quickReplies: ["Product Info", "Pricing", "Support", "Other"]
-                },
-                {
-                    text: "I understand you're looking for assistance. Could you please provide more details about your query?",
-                    quickReplies: ["Yes, sure", "Need help", "Have a question"]
-                },
-                {
-                    text: "I appreciate your patience! Our team is ready to provide you with the best support possible.",
-                    quickReplies: null
-                }
-            ];
+        showTyping();
 
-            if (messageCount <= MAX_AUTO_REPLIES) {
-                const response = responses[messageCount - 1];
+        setTimeout(() => {
+          hideTyping();
+          addMessage(response.text, 'received');
 
-                showTyping();
+          if (response.quickReplies) {
+            addQuickReplies(response.quickReplies);
+          }
 
-                setTimeout(() => {
-                    hideTyping();
-                    addMessage(response.text, 'received');
+          // After 3rd message, show WhatsApp link
+          if (messageCount === MAX_AUTO_REPLIES) {
+            setTimeout(() => {
+              addWhatsAppLink();
+            }, 1000);
+          }
+        }, 1500);
+      } else {
+        // After 3 auto-replies, just acknowledge
+        showTyping();
+        setTimeout(() => {
+          hideTyping();
+          addMessage("Please use the WhatsApp link above to continue our conversation with a live agent! 😊", 'received');
+        }, 1500);
+      }
+    }
 
-                    if (response.quickReplies) {
-                        addQuickReplies(response.quickReplies);
-                    }
+    // Send message function
+    function sendMessage() {
+      const message = messageInput.value.trim();
 
-                    // After 3rd message, show WhatsApp link
-                    if (messageCount === MAX_AUTO_REPLIES) {
-                        setTimeout(() => {
-                            addWhatsAppLink();
-                        }, 1000);
-                    }
-                }, 1500);
-            } else {
-                // After 3 auto-replies, just acknowledge
-                showTyping();
-                setTimeout(() => {
-                    hideTyping();
-                    addMessage("Please use the WhatsApp link above to continue our conversation with a live agent! 😊", 'received');
-                }, 1500);
-            }
-        }
+      if (message) {
+        addMessage(message, 'sent');
+        messageInput.value = '';
 
-        // Send message function
-        function sendMessage() {
-            const message = messageInput.value.trim();
+        // Get bot response
+        getBotResponse(message);
+      }
+    }
 
-            if (message) {
-                addMessage(message, 'sent');
-                messageInput.value = '';
+    // Send message on button click
+    sendBtn.addEventListener('click', sendMessage);
 
-                // Get bot response
-                getBotResponse(message);
-            }
-        }
-
-        // Send message on button click
-        sendBtn.addEventListener('click', sendMessage);
-
-        // Send message on Enter key
-        messageInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                sendMessage();
-            }
-        });
-    </script>
+    // Send message on Enter key
+    messageInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        sendMessage();
+      }
+    });
+  </script>
 
 </body>
 

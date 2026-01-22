@@ -189,7 +189,7 @@
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
              
                 <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Become A Dealer</a></li>
+                <li class="nav-item"><a class="nav-link" href="dealer.html">Become A Dealer</a></li>
               </ul>
             </div>
 
@@ -231,7 +231,7 @@
             <li><a class="mobile-nav-link" href="contact.html">Contact</a></li>
     
             <li><a class="mobile-nav-link" href="career.html">Career</a></li>
-            <li><a class="mobile-nav-link" href="#">Become A Dealer</a></li>
+            <li><a class="mobile-nav-link" href="dealer.html">Become A Dealer</a></li>
           </ul>
         </div>
 
@@ -578,7 +578,7 @@
       <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 g-md-4">
 
         <!-- Card -->
-        <div class="col">
+        <div class="col animate fade-up" data-delay="100">
           <div class="product-card h-100">
             <div class=" ">
               <img src="img/Heavy Duty Rotavator.png" class="img-fluid p-2" alt="Product">
@@ -592,7 +592,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col animate fade-up" data-delay="200">
           <div class="product-card h-100">
             <div class="">
               <img src="img/Hydrolic Disk Harrow hd.png" class="img-fluid p-2" alt="Product">
@@ -606,7 +606,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col  animate fade-up" data-delay="300">
           <div class="product-card h-100">
             <div class="">
               <img src="img/Disk Harrow Pipe Frame .png" class="img-fluid p-2" alt="Product">
@@ -620,7 +620,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col animate fade-up" data-delay="400">
           <div class="product-card h-100">
             <div class="">
               <img src="img/Hydrolic Disk Harrow.png" class="img-fluid p-2" alt="Product">
@@ -721,7 +721,7 @@
           <h6 class="footer-title">Quick Links</h6>
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
-            <li><a href="#">Dealers</a></li>
+            <li><a href="dealer.html">Dealers</a></li>
             <li><a href="#">Warranty</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -796,6 +796,7 @@
             dots: true,
             autoplay: true,
             autoplayTimeout: 3000,
+              autoplayHoverPause: true,
             margin: 10
           });
           desktopCarouselInitialized = true;
@@ -810,6 +811,7 @@
         dots: true,
         autoplay: true,
         autoplayTimeout: 3000,
+          autoplayHoverPause: true,
         margin: 10
       });
 
@@ -870,7 +872,8 @@
         nav: false,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 3000
+        autoplayTimeout: 3000,
+          autoplayHoverPause: true,
       });
     });
   </script>
@@ -948,7 +951,8 @@ $(document).ready(function () {
     nav: false,
     dots: false,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 4000, 
+     autoplayHoverPause: true,
     smartSpeed: 600,
     responsive: {
       0: {

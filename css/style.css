@@ -2132,6 +2132,7 @@
      justify-content: center;
      transition: all 0.3s ease;
      background: rgba(0, 0, 0, 0.4);
+     cursor: pointer;
  }
 
  .play-btn::after {
